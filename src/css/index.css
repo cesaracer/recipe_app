@@ -1,0 +1,169 @@
+form {
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  -webkit-box-shadow: 0px 0px 5px 3px grey;
+          box-shadow: 0px 0px 5px 3px grey;
+  width: 70%;
+  overflow: hidden;
+}
+
+input {
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: solid 2px orange;
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+textarea {
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: solid 2px orange;
+  border-right: solid 2px orange;
+  width: 50%;
+  height: 80px;
+}
+
+.form-group {
+  float: left;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 700px) {
+  form {
+    padding-right: 0px;
+    width: 90%;
+  }
+  input {
+    width: 100%;
+  }
+  textarea {
+    width: 100%;
+  }
+  label {
+    width: 100%;
+  }
+}
+
+.card {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-bottom: 20px;
+  width: 20%;
+  float: left;
+}
+
+.card-body {
+  height: 300px;
+  width: 250px;
+  -webkit-box-shadow: 0px 0px 5px 3px grey;
+          box-shadow: 0px 0px 5px 3px grey;
+}
+
+.card-description {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 85%;
+  background-color: orange;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.card-description:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.card-ingredients {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.card-info {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  word-break: break-all;
+}
+
+.card-front {
+  position: absolute;
+  background-color: whitesmoke;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.card-back {
+  position: absolute;
+  background-color: whitesmoke;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  height: 100%;
+  width: 100%;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.card-title {
+  text-align: center;
+  color: white;
+  background-color: orange;
+  width: 100%;
+  height: 15%;
+  float: left;
+}
+
+@media screen and (max-width: 700px) {
+  .card {
+    width: 100%;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  color: orange;
+}
+
+.btn {
+  text-align: center;
+  height: 20px;
+  width: 160px;
+  color: white;
+  background-color: orange;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.recipe-list {
+  width: 70%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*# sourceMappingURL=index.css.map */

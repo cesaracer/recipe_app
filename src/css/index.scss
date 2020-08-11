@@ -1,0 +1,39 @@
+@import "./form", "./card";
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: orange
+}
+  
+.btn{
+    text-align: center;
+    height: 20px;
+    width: 160px;
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+    border-radius: 5px;
+}
+  
+.recipe-list{
+    width: 70%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
